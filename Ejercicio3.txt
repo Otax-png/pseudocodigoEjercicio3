@@ -1,0 +1,16 @@
+Algoritmo Algoritmo3
+	
+	Definir N, factorial como Entero
+		
+	Escribir "Ingrese un numero entero"
+	Leer N
+	factorial = 1
+	Si N >= 0 Entonces
+		Para i <- 1 Hasta N Con Paso 1 Hacer
+			factorial = factorial * i
+		FinPara
+		Escribir "El factorial de ",N, " es ",factorial
+	SiNo
+		Escribir "ERROR, NUMERO FUERA DE LIMITE"
+	FinSi
+FinAlgoritmo
